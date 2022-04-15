@@ -1,12 +1,190 @@
 <!DOCTYPE html>
 <html>
 <head>
-<Title> OTTO > kaikki</title>
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- CSS source(s) -->
+    <link rel="stylesheet" href="styles.css"></link>
+    <link rel="stylesheet" href="scrollarrow.css"></link>
+    <link rel="stylesheet" href="fonts.css"></link>
+
+     <!-- Javascript source -->
+    <script src="main.js"></script>
+
+    <!-- jQuery loaded from CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!-- Shortcut icon -->
+    <link rel="shortcut icon" type="icofile" href="favicon.ico"/>
+
+    <!-- Site size -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+
+    <!-- Site name -->
+    <Title> OTTO > kaikki</title>
+
+    <!-- Link to title font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap" rel="stylesheet">
+
+    <!-- Link to description font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Link to contact github and photos fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Link to education, software and interests text font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+
+
 </head>
 <body>
-<p>
-<img src="" align="middle" width="1000" height="1000" >
-</p>
+
+
+
+  <!-- Default background -->
+  <div class="bgpic">
+    <video id="cosmosvideo" muted loop autoplay>
+    <source src="cosmosvideo.mp4" type="video/mp4">
+    </video>
+
+
+      <!-- Big Otto Vintola-->
+     <div class="caption">
+      <span class="border" style="
+      background-color: transparent;
+      font-size: 80px;
+      color: #f7f7f7;">
+      <h1>
+        Hello, I am Otto
+      </h1>
+      </span>
+    </div>
+
+
+          <!-- Description about me -->
+          <div>
+            <h2>
+              Data Science student, tinkerer of mathematics and technology
+
+            </h2>
+          </div>
+
+
+
+
+          <!-- contact -->
+          <div><a class="contactBox" href="mailto:someone@example.com"></a></div>
+
+          <div>
+              <a class="contact">Contact</a>
+          </div>
+
+
+          <!-- github -->
+          <div><a class="githubBox" href="https://www.github.com/ottothelord" target="_blank"></a></div>
+
+          <div>
+              <a class="github">GitHub</a>
+          </div>
+
+
+          <!-- photos -->
+          <div><a class="photosBox" href="https://www.flickr.com/photos/193720882@N05/" target="_blank"></a></div>
+
+          <div>
+              <a class="photos">Photos</a>
+          </div>
+
+
+         <!-- arrows div -->
+<!-- <div class="arrow">
+              <span></span>
+              <span></span>
+              <span></span>
+         </div>   -->
+
+              <!-- Script to hide arrow -->
+              <script>
+
+                  $(window).scroll(function () {
+
+                          var elem = $('.arrow');
+                    setTimeout(function() {
+                      elem.css({"opacity":"0","transition":"2s"});
+                    },0);
+
+                    elem.css({"opacity":"1","transition":"1s"});
+                  });
+
+              </script>
+
+  </div>
+
+
+
+  <!-- Start of Education Interests and  -->
+   <div>
+
+     <h3> <!-- make background grey -->
+            <!-- First white and grey box -->
+            <div style="
+            height: 175px;
+            background-color: #000000;
+            padding: 100px 150px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            ">
+                  <p class="Education">
+                    Education
+                  </p>
+
+                      <div class="major">
+
+                      </div>
+
+                  <div class="aaltologo">
+                  <a class="aaltologoLink" href="https://www.aalto.fi/fi/perustieteiden-korkeakoulu" target="_blank">
+                     <img src="aaltologo.png" class="aaltologo" alt="Aalto logo" width="418" height="184">
+                  </a>
+                  </div>
+            </div>
+      </h3>  <!-- make background grey -->
+
+      <!-- Second white and grey box -->
+      <div style="
+      height: 100%;
+      background-color: #F2F2F2F2;
+      padding-top: 0px;
+      padding-bottom: 100px;
+      margin-top: 0px;
+      padding-left: 100px;
+      padding-right: 100px;
+      margin-bottom: 0px;
+      ">
+
+          <div class="interests">
+          </div>
+
+
+      </div>
+
+
+  </div> <!-- Big div containing Education interests and  -->
+
+
+
 </body>
 </html>
-

@@ -18,5 +18,8 @@ header {
     font-size: 50px;
     font-weight: lighter;
     color: #000000;
-
+    position: relative;
+    top: 15%;
+    left: 10%;
 }
+

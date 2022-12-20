@@ -1,10 +1,10 @@
 
 .edBox {
-   height: 50%;
-   background-color:#efeeee;
+   height: 100%;
+   background-color:#fffdfd;
    position: relative;
    top: 0%;
    padding: 0px 0px;
-   margin-top: -200px;
+   margin-top: 0px;
    margin-bottom: 0px;
 }

@@ -1,0 +1,22 @@
+
+
+/* paragraph styling. Used in: 
+    Information about education
+*/
+
+p {
+    font-family: 'San Francisco thin';
+    letter-spacing: 3px;
+    left: 25%;
+}
+
+
+/* header styling (Education) */
+header {
+    font-family: 'San Francisco thic';
+    letter-spacing: 0px;
+    font-size: 50px;
+    font-weight: lighter;
+    color: #000000;
+
+}
